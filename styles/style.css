@@ -1,0 +1,94 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* Shared style */
+.text-primary{
+    color: rgba(253, 110, 10, 1);
+}
+
+
+.btn-primary{
+    background-color: rgba(253, 110, 10, 1);
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: none;
+
+}
+
+/* Nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+
+
+.dark-2{
+    color: rgba(71, 71, 71, 1);
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+
+   background-position: top left, bottom right;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 200px;
+
+}
+
+.banner-content{
+    max-width: 580px;
+}
+.banner-greeting{
+    font-weight: 600;
+    font-size: 30px;
+
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.para-desc{
+    font-size: 18px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+}
